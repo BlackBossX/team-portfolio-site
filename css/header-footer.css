@@ -36,5 +36,6 @@ footer{
     background-color: #222b38;
     color: #ffffff;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 10px;
 }
