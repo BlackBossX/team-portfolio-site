@@ -11,10 +11,25 @@ a{
     text-decoration: none;
     padding: 0px 7px;
 }
-
+button{
+    background-color: #5c35b8;
+    color: #5c35b8;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+a.home{
+    color: #9774e9;
+    text-decoration: none;
+}
+a.mode{
+    color: #fdfcfd;
+}
 a:hover{
     color: #fdfcfd;
     text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px #9774e9;
 }
 a.active{
     color: #fdfcfd;
