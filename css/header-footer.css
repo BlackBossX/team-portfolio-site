@@ -1,1 +1,56 @@
-/* MEMBER 4: header, navigation and footer styles */
+header{
+    background-color: #5c35b8;
+    color: #fdfcfd;
+}
+h2.title{
+    text-align: left;
+}
+a{
+    color: #fdfcfd;
+    text-align: right;
+    text-decoration: none;
+    padding: 0px 7px;
+}
+button{
+    background-color: #5c35b8;
+    color: #5c35b8;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+a.home{
+    color: #9774e9;
+    text-decoration: none;
+}
+a.mode{
+    color: #fdfcfd;
+}
+a:hover{
+    color: #fdfcfd;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px #9774e9;
+}
+a.active{
+    color: #fdfcfd;
+    text-decoration: none;
+}
+a.link{
+    color: #fdfcfd;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+}
+
+footer{
+    background-color: #222b38;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
